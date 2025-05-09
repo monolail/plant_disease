@@ -22,7 +22,7 @@ class SimpleNN(nn.Module):
         return x
 
 model = SimpleNN()
-model.load_state_dict(torch.load("C:/Users/이호준/OneDrive/바탕 화면/app/simple_nn_model.pth", map_location=torch.device('cpu')))
+model.load_state_dict(torch.load("simple_nn_model.pth", map_location=torch.device('cpu')))
 model.eval()
 
 def transform_image(image):
