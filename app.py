@@ -56,4 +56,4 @@ if uploaded_file is not None:
 
 st.write("---------------------------------------------------------------------")
 
-st.image("C:/Users/이호준/OneDrive/바탕 화면/app./예시2.PNG", caption="사용 방법_예시_이미지")
+st.image("예시2.PNG", caption="사용 방법_예시_이미지")
